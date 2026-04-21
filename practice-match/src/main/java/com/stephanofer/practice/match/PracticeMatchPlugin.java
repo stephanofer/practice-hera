@@ -1,6 +1,5 @@
 package com.stephanofer.practice.match;
 
-import com.stephanofer.practice.data.bootstrap.DataLayerInfo;
 import org.bukkit.plugin.java.JavaPlugin;
 
 public class PracticeMatchPlugin extends JavaPlugin {
