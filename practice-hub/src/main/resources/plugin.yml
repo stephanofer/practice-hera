@@ -1,0 +1,7 @@
+name: PracticeHub
+version: '${version}'
+main: com.stephanofer.practice.hub.PracticeHubPlugin
+api-version: '1.21'
+authors: [stephanofer]
+website: stephanofer.com
+softdepend: [PlaceholderAPI, zMenu, voicechat]
