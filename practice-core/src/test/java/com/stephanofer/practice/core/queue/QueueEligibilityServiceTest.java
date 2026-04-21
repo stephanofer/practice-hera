@@ -1,6 +1,5 @@
 package com.stephanofer.practice.core.queue;
 
-import com.stephanofer.practice.api.queue.PracticeRegistrationGateway;
 import org.junit.jupiter.api.Test;
 
 import java.util.UUID;

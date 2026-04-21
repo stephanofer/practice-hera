@@ -1,9 +1,6 @@
 package com.stephanofer.practice.proxy;
 
 import com.google.inject.Inject;
-import com.stephanofer.practice.api.bootstrap.PracticePlatform;
-import com.stephanofer.practice.api.bootstrap.PracticePluginInfo;
-import com.stephanofer.practice.core.bootstrap.StartupMessageFactory;
 import com.velocitypowered.api.event.Subscribe;
 import com.velocitypowered.api.event.proxy.ProxyInitializeEvent;
 import com.velocitypowered.api.plugin.Plugin;
@@ -27,9 +24,6 @@ public final class PracticeProxyPlugin {
 
     @Subscribe
     public void onProxyInitialization(ProxyInitializeEvent event) {
-        var pluginInfo = new PracticePluginInfo("practice-proxy", PracticePlatform.PROXY);
-
-        logger.info(StartupMessageFactory.build(pluginInfo));
         logger.info("Proxy plugin loaded and ready to manage transfers and routing.");
     }
 }
