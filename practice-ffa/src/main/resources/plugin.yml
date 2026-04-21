@@ -1,0 +1,7 @@
+name: PracticeFfa
+version: '${version}'
+main: com.stephanofer.practice.ffa.PracticeFfaPlugin
+api-version: '1.21'
+authors: [stephanofer]
+website: stephanofer.com
+softdepend: [voicechat]

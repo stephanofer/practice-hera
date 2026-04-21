@@ -1,0 +1,7 @@
+name: PracticeMatch
+version: '${version}'
+main: com.stephanofer.practice.match.PracticeMatchPlugin
+api-version: '1.21'
+authors: [stephanofer]
+website: stephanofer.com
+softdepend: [voicechat]
